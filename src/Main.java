@@ -25,7 +25,9 @@ public class Main {
         System.out.println("Минимальная сумма трат за день "+min+"рублей");
         System.out.println("Максимальная сумма трат за день "+max+"рублей");
         //Задание3
-        float averagleValueMonth=sumMonth/ arr.length;
+        float sumMonth1=sumMonth;
+        float arr1=arr.length;
+        float averagleValueMonth=sumMonth1/ arr1;
         System.out.println("Средняя сумма трат за месяц "+averagleValueMonth+" рублей");
         //Задание4
     /*Arrays.sort(arr);
